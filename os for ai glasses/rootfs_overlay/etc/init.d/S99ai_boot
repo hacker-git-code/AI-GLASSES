@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Launching AI Assistant CLI..."
+/usr/bin/llama_chat &
+/usr/bin/whisper_mic &
+exec /bin/sh

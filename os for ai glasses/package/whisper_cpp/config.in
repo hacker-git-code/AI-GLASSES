@@ -1,0 +1,4 @@
+config BR2_PACKAGE_WHISPER_CPP
+    bool "whisper.cpp"
+    help
+      Lightweight speech-to-text engine from whisper.cpp
